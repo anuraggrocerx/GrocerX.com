@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "GrocerX India",
+  "short_name": "GrocerX",
+  "description": "Your neighbourhood kirana, online ⚡",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["shopping", "food", "lifestyle"],
+  "icons": [
+    { "src": "images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "My Cart", "short_name": "Cart", "url": "./index.html?go=cart" },
+    { "name": "Print Service", "short_name": "Print", "url": "./index.html?go=print" },
+    { "name": "My Profile", "short_name": "Profile", "url": "./index.html?go=profile" }
+  ]
+}
